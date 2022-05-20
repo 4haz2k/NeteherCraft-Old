@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@media screen and (max-width: 1700px) {
+    body {
+        zoom: 90% !important;
+    }
+}
+@media screen and (max-width: 1470px) {
+    .block{
+        padding: 160px 160px 150px 260px !important;
+    }
+    .time-top{
+        margin: 10px 10px 0 -200px !important;
+    }
+    .block2{
+        padding: 160px 260px 140px 200px !important;
+    }
+    .time-top2{
+        margin: 10px 10px 0 -250px !important;
+    }
+}
+@media screen and (max-width: 1350px) {
+    body {
+        zoom: 80% !important;
+    }
+    .block{
+        padding: 160px 180px 150px 300px !important;
+    }
+    .time-top{
+        margin: 10px 10px 0 -240px !important;
+    }
+    .block2{
+        padding: 160px 280px 140px 210px !important;
+    }
+    .time-top2{
+        margin: 10px 10px 0 -260px !important;
+    }
+}
+@media screen and (max-width: 1150px) {
+    body {
+        zoom: 70% !important;
+    }
+}
+@media screen and (max-width: 880px) {
+    body {
+        zoom: 60% !important;
+    }
+    .block {
+        padding: 160px 130px 150px 250px !important;
+    }
+    .time-top{
+        margin: 10px 10px 0 -190px !important;
+    }
+    .block2{
+        padding: 160px 210px 140px 140px !important;
+    }
+    .time-top2{
+        margin: 10px 10px 0 -200px !important;
+    }
+}
+@font-face {
+    font-family: NetherCraft_Menu;
+    src: url("../fonts/FSElliotProBold.otf");
+}
+@font-face {
+    font-family: NetherCraft_Heavy;
+    src: url("../fonts/FSElliotProHeavy.otf");
+}
+@font-face {
+    font-family: Tough_Sans;
+    src: url("../fonts/18166.otf");
+}
+.text-a {
+    color: #fff;
+    font-size: 2em;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-family: 'Dosis', sans-serif;
+}
+.bg1 {
+    background: url(../images/main-background.png) 50% 0 no-repeat;
+    position: relative;
+    height: 1080px;
+}
+.background-label-lk {
+    background-image: url(../images/background-label-lk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 74px;
+}
+.background-label-shop {
+    background-image: url(../images/background-presents-shop-label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-label-presents {
+    background-image: url(../images/background-presents-shop-label.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blocks-lk{
+    margin: 30px 10px 10px 10px;
+    background-position: center;
+}
+.text-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-group{
+    margin: 0 auto;
+}
+input[type='file'] {
+    opacity:0
+}
+.navigation-menu{
+    font-family: NetherCraft_Menu;
+    font-size: 16px;
+    color: #2a2a2a !important;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 63px;
+    transition: all .4s ease;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 10px;
+    left: 20px;
+}
+.navigation-menu:hover {
+    text-decoration: none;
+    color: #ff6f00 !important;
+    background: linear-gradient(45deg, #ff6f00 30%, #00c50c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.background-footer{
+    background: url(../images/podval.png) 50% 0 no-repeat;
+    position: relative;
+    height: 1080px;
+}
+.text{
+    font-family: NetherCraft_Heavy;
+    font-size: 30px;
+    color: white;
+}
+.voters{
+    display: inline-block;
+    vertical-align: top;
+    padding: 33px 0 0 0;
+}
+.voters h3{
+    width: 200px;
+    color: white;
+    font-size: 22px;
+    font-family: NetherCraft_Heavy;
+    line-height: 25px;
+}
+.voters ul.players{
+    margin: 20px 0 26px 0;
+}
+ol, ul{
+    list-style: none;
+}
+.voters ul.players li{
+    margin: 0 15px 0 15px;
+    position: relative;
+}
+.voters ul li{
+    display: inline-block;
+}
+.voters ul li a{
+    text-align: center;
+}
+.voters ul.players .player-name {
+    display: block;
+    font-size: 14px;
+    font-family: NetherCraft_Heavy;
+    margin: 8px 0 0 0;
+    position: absolute;
+    width: 100px;
+    left: -15px;
+    text-align: center;
+}
+.color-text{
+    color: white;
+    text-decoration: none;
+}
+.color-text:hover {
+    color: white;
+    text-decoration: none;
+}
+.news-bg1{
+    background: url(../images/news/glaz_1.png) 50% 0 no-repeat;
+    position: relative;
+    height: 570px;
+}
+.news-bg2{
+    background: url(../images/news/glaz_1_2.png) 50% 0 no-repeat;
+    position: relative;
+    height: 500px;
+}
+.news-bg3{
+    /*background: url(../images/news/glaz_1_3.png) 50% 0 no-repeat;*/
+    /*position: relative;*/
+    /*height: 60px;*/
+    /*z-index: 102;*/
+    /*padding-top: 450px;*/
+
+    width: 200px;
+    height: 60px;
+    filter: drop-shadow(10px 17px 38px rgba(1, 1, 1, .04));
+    background: url(../images/news/glaz_1_3.png) no-repeat;
+    /*margin: -44px auto 0 auto;*/
+}
+.present{
+    background: url(../images/bonus1.png) 50% 0 no-repeat;
+    position: relative;
+    height: 95px;
+    width: 240px;
+    transition: all .4s ease;
+}
+.present:hover{
+    background: url(../images/bonusik.png) 50% 0 no-repeat;
+    position: relative;
+    height: 95px;
+    width: 240px;
+}
+/*Login form*/
+.user {
+    width: 300px;
+    position: relative;
+    float: right;
+    top: 127px;
+    margin-right: 70px
+}
+.user h3 {
+    width: 160px;
+    text-shadow: 3px 3px 6px #6b6b6b;
+    color: #fff;
+    font-family: NetherCraft_Heavy;
+    font-size: 22px;
+    line-height: 24px;
+    background: url(../images/form/user_splasher.png) right 80% no-repeat;
+    margin: 0 0 0 44px;
+}
+.user form input.login {
+    background: url(../images/form/login.png) no-repeat;
+    margin: 40px 0 9px 23px;
+    width: 223px;
+    height: 42px;
+}
+.user form input {
+    width: 163px;
+    height: 42px;
+    display: block;
+    font-size: 14px;
+    color: #2f2b24;
+    font-family: NetherCraft_Menu;
+    filter: drop-shadow(0 12px 16px #ff7300);
+    padding: 0 30px;
+    margin: 0 0 0 23px;
+}
+.user form input.password {
+    background: url(../images/form/password.png) no-repeat;
+    width: 223px;
+    height: 42px;
+}
+.user form input {
+    width: 163px;
+    height: 42px;
+    display: block;
+    font-size: 14px;
+    color: #2f2b24;
+    font-family: NetherCraft_Menu;
+    filter: drop-shadow(0 12px 16px #ff7300);
+    padding: 0 30px;
+    margin: 0 0 0 23px;
+}
+.user form button {
+    width: 61px;
+    height: 60px;
+    background: url(../images/form/enter.png) no-repeat;
+    cursor: pointer;
+    display: block;
+    transition: all .5s ease;
+    filter: drop-shadow(6px 10px 16px #00a104);
+    position: absolute;
+    top: 104px;
+    right: -5px;
+}
+.user a.forgot {
+    text-shadow: 1px 2px 6px #ff7300;
+    color: #fff;
+    font-family: NetherCraft_Menu;
+    font-size: 14px;
+    line-height: 42px;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    top: -42px;
+    left: 170px;
+}
+form {
+    border: 0;
+    vertical-align: baseline;
+}
+input, a, button, textarea {
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+.main_data{
+    font-family: NetherCraft_Heavy;
+    font-size: 17px;
+}
+.user form button:hover {
+    background: url(../images/form/enter_hover.png) no-repeat;
+    filter: drop-shadow(6px 10px 16px #493B33);
+}
+.user form button:active {
+    outline: none;
+}
+/*NEWS*/
+.data_text{
+    font-family: Tough_Sans;
+    font-size: 25px;
+    color: #ff6d0e;
+    letter-spacing: 2px;
+    text-shadow: 2px 3px 14px #adadad;
+}
+.ip{
+    color: #5a6bab;
+    margin-left: -17px;
+}
+/*NEWS*/
+.back_news1{
+    background: url("../images/news/glaz_12.png") no-repeat center;
+    width: 440px;
+    height: 577px;
+    margin: 90px auto 30px auto;
+    z-index: 100;
+    position: absolute;
+    left: 100px;
+    filter: drop-shadow(3px 12px 20px gray);
+}
+.back_news2{
+    background: url("../images/news/glaz_2.png") no-repeat center;
+    width: 440px;
+    height: 577px;
+    margin: 30px auto 30px auto;
+    z-index: 100;
+    position: absolute;
+    left: 100px;
+    filter: drop-shadow(3px 12px 20px gray);
+}
+.back_news3{
+    background: url("../images/news/glaz_13.png") no-repeat center;
+    width: 440px;
+    height: 577px;
+    margin: 90px auto 30px auto;
+    z-index: 100;
+    position: absolute;
+    left: 100px;
+    filter: drop-shadow(3px 12px 20px gray);
+}
+.label_news1{
+    background: url("../images/news/glaz_1_3.png") no-repeat center;
+    width: 340px;
+    height: 73px;
+    margin: 275px 0 0 60px;
+    z-index: 103;
+    position: absolute;
+}
+.label_news2{
+    background: url("../images/news/glaz_1_3.png") no-repeat center;
+    width: 340px;
+    height: 73px;
+    margin: 275px 0 0 60px;
+    z-index: 103;
+    position: absolute;
+}
+.label_news3{
+    background: url("../images/news/glaz_1_3.png") no-repeat center;
+    width: 340px;
+    height: 73px;
+    margin: 275px 0 0 60px;
+    z-index: 103;
+    position: absolute;
+}
+.image_news{
+    position: absolute;
+    margin: 175px 0 -50px 0;
+    z-index: 102;
+}
+.eye{
+    margin: 30px 0 0 40px;
+}
+.back_news1 span{
+    position: absolute;
+    z-index: 105;
+    margin: 105px 0px 0 139px;
+    font-family: NetherCraft_Menu;
+    font-size: 22px;
+}
+.back_news2 span{
+    position: absolute;
+    z-index: 105;
+    margin: 111px 0px 0 131px;
+    font-family: NetherCraft_Menu;
+    font-size: 22px;
+}
+.back_news3 span{
+    position: absolute;
+    z-index: 105;
+    margin: 105px 0px 0 149px;
+    font-family: NetherCraft_Menu;
+    font-size: 22px;
+}
+.label_news1 span{
+    position: absolute;
+    z-index: 106;
+    margin: 25px 0px 0 13px;
+    font-family: NetherCraft_Heavy;
+    font-size: 18px;
+}
+.label_news2 span{
+    position: absolute;
+    z-index: 106;
+    margin: 25px 0px 0 13px;
+    font-family: NetherCraft_Heavy;
+    font-size: 18px;
+}
+.label_news3 span{
+    position: absolute;
+    z-index: 106;
+    margin: 25px 0px 0 13px;
+    font-family: NetherCraft_Heavy;
+    font-size: 18px;
+}
+.text_news1 span{
+    padding-top: 20px;
+    color: #2e322f;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+.text_news2 span{
+    padding-top: 20px;
+    color: #2e322f;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+.text_news3 span{
+    padding-top: 20px;
+    color: #2e322f;
+    font-size: 15px;
+    font-family: 'Dosis', sans-serif;
+}
+.more{
+    background: url(../images/news/more.png) 50% 0 no-repeat;
+    position: relative;
+    height: 95px;
+    width: 240px;
+    transition: all .4s ease;
+}
+.more:hover{
+    background: url(../images/news/more_hover.png) 50% 0 no-repeat;
+    position: relative;
+    height: 95px;
+    width: 240px;
+}
+.all_news{
+    background: url(../images/news/novosti.png) 50% 0 no-repeat;
+    position: relative;
+    height: 109px;
+    width: 323px;
+    transition: all .6s ease;
+}
+.all_news:hover{
+    background: url(../images/news/novosti1.png) 50% 0 no-repeat;
+    position: relative;
+    height: 109px;
+    width: 323px;
+}
+.text_news{
+    font-family: NetherCraft_Heavy;
+    font-size: 22px;
+    color: black;
+    padding-top: 37px;
+    padding-right: 36px;
+}
+.bg2 {
+    background: url(../images/middle_block.png) 100% 0 no-repeat;
+    position: relative;
+    height: 883px;
+    width: auto;
+    padding: 0 -10px;
+}
+.top_server1{
+    background: url(../images/top/top1.png) 100% 0 no-repeat;
+    background-position: center;
+    position: relative;
+    height: 940px;
+    margin-right: -90px;
+}
+.top_server2{
+    background: url(../images/top/top2.png) 100%  0 no-repeat;
+    background-position: center;
+    position: relative;
+    height: 940px;
+    margin-left: -90px;
+}
+.leftBar {
+    position:fixed;
+}
+
+.rightBar {
+    position:fixed;
+    right:10px;
+}
+/*TOP 1 col*/
+/*TITLE*/
+.description {
+    margin: -10px 0 10px 305px;
+}
+.description span {
+    line-height: 67px;
+    display: inline-block;
+    color: #37312a;
+    font-size: 16px;
+    font-family: NetherCraft_Heavy;
+}
+.description span:first-child {
+    width: 89px;
+    text-align: center;
+    position: relative;
+    left: -40px;
+}
+.description span:nth-child(2) {
+    left: -30px;
+    position: relative;
+}
+/*ROW*/
+.player{
+    top: 80px;
+    margin: 0px 0 10px 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+.time{
+    font-size: 14px;
+    color: #37312a;
+    font-family: NetherCraft_Menu;
+    width: 20%;
+    margin-left: 20px;
+    padding-top: 9px;
+}
+.place{
+    font-size: 14px;
+    font-family: NetherCraft_Menu;
+    width: 10%;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 9px;
+}
+.nickname{
+    margin: 0 0 0 20px;
+    flex-grow: 1;
+    font-size: 14px;
+    font-family: NetherCraft_Menu;
+}
+.head{
+    font-weight: bold;
+}
+/*POPUP*/
+#NetherPopupBackground {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 964;
+    background: rgba(0,0,0,0.5);
+}
+#NetherPopupWindow {
+    position: fixed;
+    z-index: 9999;
+    display: none;
+    background-color: rgb(249, 250, 249);
+    padding: 10px;
+    max-width: 800px;
+}
+.NetherPopupImg1 {
+    position: absolute;
+    top: -40px;
+    left: -55px;
+    background: url(../images/popup/popup-img1.png);
+    width: 76px;
+    height: 88px;
+}
+.NetherPopupContent {
+    padding: 20px;
+    text-align: center;
+    max-height: 700px;
+    overflow: auto;
+    overflow-x: hidden;
+    color: rgb(87, 83, 77);
+    font-family: NetherCraft_Menu;
+    font-size: 18px;
+    font-weight: bold;
+}
+.NetherPopupTitle {
+    font-size: 22px;
+    text-align: center;
+    font-family: NetherCraft_Menu;
+    color: rgb(43, 41, 41);
+    text-transform: uppercase;
+    background: url(../images/top/orange_line.png) 50% 60px no-repeat;
+    background-size: 291px 2px;
+    position: relative;
+    padding: 30px;
+}
+.NetherPopupImg2 {
+    position: absolute;
+    bottom: -40px;
+    right: -35px;
+    background: url(../images/popup/popup-img2.png);
+    width: 60px;
+    height: 88px;
+}
+.block{
+    padding: 160px 240px 150px 360px;
+}
+.time-top{
+    width: 100%;
+    position: absolute;
+    margin: 10px 10px 0 -320px;
+    text-align: center;
+    color: gray !important;
+    font-size: 26px !important;
+}
+.image_top{
+    position: absolute;
+    margin: 34px auto 0 -191px;
+    width: 195px;
+    height: 4px;
+}
+.first{
+    color: goldenrod;
+}
+.second{
+    color: #a1a1a1;
+}
+.third{
+    color: #a55310;
+}
+.title_name{
+    margin-left: 5px;
+}
+.block2{
+    padding: 160px 340px 140px 280px;
+
+}
+.image_top2{
+    position: absolute;
+    margin: 34px auto 0 -269px;
+    width: 275px;
+    height: 4px;
+}
+.time-top2{
+    width: 100%;
+    position: absolute;
+    margin: 10px 10px 0 -330px;
+    text-align: center;
+    color: gray !important;
+    font-size: 26px !important;
+}
+.bg3 {
+    background: url(../images/background3.png) 100% 0 no-repeat;
+    height: 656px;
+}
+.ip-text{
+    background: url(../images/start.png) 100% 0 no-repeat;
+    width: 227px;
+    height: 71px;
+    filter: drop-shadow(3px 12px 20px #1aa027);
+    transition: all .4s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ip-text:hover{
+    background: url(../images/start_hover.png) 100% 0 no-repeat;
+    width: 227px;
+    height: 71px;
+    filter: drop-shadow(3px 12px 20px #ffa500);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pickaxe{
+    background: url(../images/kirka.png) 100% 0 no-repeat;
+    width: 37px;
+    height: 32px;
+    position: absolute;
+}
+.pickaxe:hover{
+    background: url(../images/kirka.png) 100% 0 no-repeat;
+    width: 37px;
+    height: 32px;
+    position: absolute;
+}
+.account_button1{
+    background: url(../images/account/button.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #df682c);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button1:hover{
+    background: url(../images/account/button_2.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #008f1f);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button2{
+    background: url(../images/account/button_2.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #008f1f);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button2:hover{
+    background: url(../images/account/button_3.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #5c9bd4);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button3{
+    background: url(../images/account/button_3.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #5c9bd4);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button3:hover{
+    background: url(../images/account/button_4.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #7548f2);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button4{
+    background: url(../images/account/button_4.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #7548f2);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_button4:hover{
+    background: url(../images/account/button.png) 100% 0 no-repeat;;
+    width: 140px;
+    height: 35px;
+    filter: drop-shadow(5px 2px 3px #df682c);
+    transition: all .4s ease;
+    background-position: center;
+}
+.account_text{
+    font-family: NetherCraft_Menu;
+    color: white;
+    font-size: 14px;
+}
+.account-label{
+    background: url(../images/account/Blok7.png) 100% 0 no-repeat;
+    background-position: center;
+    height: 80px;
+    width: 480px;
+}
+.account_label_text{
+    margin-top: 5px;
+}
+.account_label_text2{
+    margin-top: 5px;
+}
+.account_label_text3{
+    margin-top: 5px;
+}
+.account-header {
+    background: url(../images/account/header.png) 50% 0 no-repeat;
+    height: 80px;
+    width: 100%;
+}
+.account-rectangle{
+    border-radius: 7px;
+    color: #ff9920;
+    box-shadow: 0px 0px 12.09px 0.91px rgba(0, 0, 0, 0.33);
+    text-align: center;
+    display: inline-block;
+    line-height: 30px;
+    width: 100px;
+    height: 31px;
+    margin: 0 5px;
+}
+.account-form{
+    background-color: rgb(232, 232, 232);
+    box-shadow: inset 0px 6px 4px 0px rgba(0, 0, 0, 0.03);
+    width: 225px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-family: NetherCraft_Menu;
+    color: rgb(147, 146, 145);
+    font-weight: bold;
+    margin: 15px 10px 15px 5px;
+    border-radius: 5px;
+    background-position-y: -5px;
+}
+.account-label-lk {
+    background: url(../images/account/account-label-lk.png) 50% 0 no-repeat;
+    height: 61px;
+}
